@@ -12,7 +12,7 @@ class MySentences(object):
              for line in codecs.open(os.path.join(self.dirname, fname), 'r', 'utf-8'):
                  yield line.split()
 
-dirData='/home/huutinh/GMO/Deep_learning/data_train/train/neg'
+dirData = './data_train/dongdu_tokenize/'
 pathModelBin='/home/huutinh/GMO/Deep_learning/model/vnw2v.bin'
 pathModelTxt='/home/huutinh/GMO/Deep_learning/model/vnw2v.txt'
 
